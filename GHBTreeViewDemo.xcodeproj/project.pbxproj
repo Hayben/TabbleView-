@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECCB33BD1BF467DA00D716E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCB33BC1BF467DA00D716E4 /* main.m */; };
+		ECCB33C01BF467DA00D716E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCB33BF1BF467DA00D716E4 /* AppDelegate.m */; };
+		ECCB33C31BF467DA00D716E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCB33C21BF467DA00D716E4 /* ViewController.m */; };
+		ECCB33C61BF467DA00D716E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCB33C41BF467DA00D716E4 /* Main.storyboard */; };
+		ECCB33C81BF467DA00D716E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCB33C71BF467DA00D716E4 /* Assets.xcassets */; };
+		ECCB33CB1BF467DA00D716E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCB33C91BF467DA00D716E4 /* LaunchScreen.storyboard */; };
+		ECCB33D61BF467DA00D716E4 /* GHBTreeViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCB33D51BF467DA00D716E4 /* GHBTreeViewDemoTests.m */; };
+		ECCB33E11BF467DA00D716E4 /* GHBTreeViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCB33E01BF467DA00D716E4 /* GHBTreeViewDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECCB33D21BF467DA00D716E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCB33B01BF467DA00D716E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCB33B71BF467DA00D716E4;
+			remoteInfo = GHBTreeViewDemo;
+		};
+		ECCB33DD1BF467DA00D716E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCB33B01BF467DA00D716E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCB33B71BF467DA00D716E4;
+			remoteInfo = GHBTreeViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECCB33B81BF467DA00D716E4 /* GHBTreeViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHBTreeViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCB33BC1BF467DA00D716E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECCB33BE1BF467DA00D716E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECCB33BF1BF467DA00D716E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECCB33C11BF467DA00D716E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECCB33C21BF467DA00D716E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECCB33C51BF467DA00D716E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECCB33C71BF467DA00D716E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECCB33CA1BF467DA00D716E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECCB33CC1BF467DA00D716E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCB33D11BF467DA00D716E4 /* GHBTreeViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHBTreeViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCB33D51BF467DA00D716E4 /* GHBTreeViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHBTreeViewDemoTests.m; sourceTree = "<group>"; };
+		ECCB33D71BF467DA00D716E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCB33DC1BF467DA00D716E4 /* GHBTreeViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHBTreeViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCB33E01BF467DA00D716E4 /* GHBTreeViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHBTreeViewDemoUITests.m; sourceTree = "<group>"; };
+		ECCB33E21BF467DA00D716E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECCB33B51BF467DA00D716E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCB33CE1BF467DA00D716E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCB33D91BF467DA00D716E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECCB33AF1BF467DA00D716E4 = {
+			isa = PBXGroup;
+			children = (
+				ECCB33BA1BF467DA00D716E4 /* GHBTreeViewDemo */,
+				ECCB33D41BF467DA00D716E4 /* GHBTreeViewDemoTests */,
+				ECCB33DF1BF467DA00D716E4 /* GHBTreeViewDemoUITests */,
+				ECCB33B91BF467DA00D716E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECCB33B91BF467DA00D716E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECCB33B81BF467DA00D716E4 /* GHBTreeViewDemo.app */,
+				ECCB33D11BF467DA00D716E4 /* GHBTreeViewDemoTests.xctest */,
+				ECCB33DC1BF467DA00D716E4 /* GHBTreeViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECCB33BA1BF467DA00D716E4 /* GHBTreeViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ECCB33BE1BF467DA00D716E4 /* AppDelegate.h */,
+				ECCB33BF1BF467DA00D716E4 /* AppDelegate.m */,
+				ECCB33C11BF467DA00D716E4 /* ViewController.h */,
+				ECCB33C21BF467DA00D716E4 /* ViewController.m */,
+				ECCB33C41BF467DA00D716E4 /* Main.storyboard */,
+				ECCB33C71BF467DA00D716E4 /* Assets.xcassets */,
+				ECCB33C91BF467DA00D716E4 /* LaunchScreen.storyboard */,
+				ECCB33CC1BF467DA00D716E4 /* Info.plist */,
+				ECCB33BB1BF467DA00D716E4 /* Supporting Files */,
+			);
+			path = GHBTreeViewDemo;
+			sourceTree = "<group>";
+		};
+		ECCB33BB1BF467DA00D716E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECCB33BC1BF467DA00D716E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECCB33D41BF467DA00D716E4 /* GHBTreeViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECCB33D51BF467DA00D716E4 /* GHBTreeViewDemoTests.m */,
+				ECCB33D71BF467DA00D716E4 /* Info.plist */,
+			);
+			path = GHBTreeViewDemoTests;
+			sourceTree = "<group>";
+		};
+		ECCB33DF1BF467DA00D716E4 /* GHBTreeViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECCB33E01BF467DA00D716E4 /* GHBTreeViewDemoUITests.m */,
+				ECCB33E21BF467DA00D716E4 /* Info.plist */,
+			);
+			path = GHBTreeViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECCB33B71BF467DA00D716E4 /* GHBTreeViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCB33E51BF467DA00D716E4 /* Build configuration list for PBXNativeTarget "GHBTreeViewDemo" */;
+			buildPhases = (
+				ECCB33B41BF467DA00D716E4 /* Sources */,
+				ECCB33B51BF467DA00D716E4 /* Frameworks */,
+				ECCB33B61BF467DA00D716E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHBTreeViewDemo;
+			productName = GHBTreeViewDemo;
+			productReference = ECCB33B81BF467DA00D716E4 /* GHBTreeViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECCB33D01BF467DA00D716E4 /* GHBTreeViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCB33E81BF467DA00D716E4 /* Build configuration list for PBXNativeTarget "GHBTreeViewDemoTests" */;
+			buildPhases = (
+				ECCB33CD1BF467DA00D716E4 /* Sources */,
+				ECCB33CE1BF467DA00D716E4 /* Frameworks */,
+				ECCB33CF1BF467DA00D716E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCB33D31BF467DA00D716E4 /* PBXTargetDependency */,
+			);
+			name = GHBTreeViewDemoTests;
+			productName = GHBTreeViewDemoTests;
+			productReference = ECCB33D11BF467DA00D716E4 /* GHBTreeViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECCB33DB1BF467DA00D716E4 /* GHBTreeViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCB33EB1BF467DA00D716E4 /* Build configuration list for PBXNativeTarget "GHBTreeViewDemoUITests" */;
+			buildPhases = (
+				ECCB33D81BF467DA00D716E4 /* Sources */,
+				ECCB33D91BF467DA00D716E4 /* Frameworks */,
+				ECCB33DA1BF467DA00D716E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCB33DE1BF467DA00D716E4 /* PBXTargetDependency */,
+			);
+			name = GHBTreeViewDemoUITests;
+			productName = GHBTreeViewDemoUITests;
+			productReference = ECCB33DC1BF467DA00D716E4 /* GHBTreeViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECCB33B01BF467DA00D716E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = haibin;
+				TargetAttributes = {
+					ECCB33B71BF467DA00D716E4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					ECCB33D01BF467DA00D716E4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = ECCB33B71BF467DA00D716E4;
+					};
+					ECCB33DB1BF467DA00D716E4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = ECCB33B71BF467DA00D716E4;
+					};
+				};
+			};
+			buildConfigurationList = ECCB33B31BF467DA00D716E4 /* Build configuration list for PBXProject "GHBTreeViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECCB33AF1BF467DA00D716E4;
+			productRefGroup = ECCB33B91BF467DA00D716E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECCB33B71BF467DA00D716E4 /* GHBTreeViewDemo */,
+				ECCB33D01BF467DA00D716E4 /* GHBTreeViewDemoTests */,
+				ECCB33DB1BF467DA00D716E4 /* GHBTreeViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECCB33B61BF467DA00D716E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCB33CB1BF467DA00D716E4 /* LaunchScreen.storyboard in Resources */,
+				ECCB33C81BF467DA00D716E4 /* Assets.xcassets in Resources */,
+				ECCB33C61BF467DA00D716E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCB33CF1BF467DA00D716E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCB33DA1BF467DA00D716E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECCB33B41BF467DA00D716E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCB33C31BF467DA00D716E4 /* ViewController.m in Sources */,
+				ECCB33C01BF467DA00D716E4 /* AppDelegate.m in Sources */,
+				ECCB33BD1BF467DA00D716E4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCB33CD1BF467DA00D716E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCB33D61BF467DA00D716E4 /* GHBTreeViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCB33D81BF467DA00D716E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCB33E11BF467DA00D716E4 /* GHBTreeViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECCB33D31BF467DA00D716E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECCB33B71BF467DA00D716E4 /* GHBTreeViewDemo */;
+			targetProxy = ECCB33D21BF467DA00D716E4 /* PBXContainerItemProxy */;
+		};
+		ECCB33DE1BF467DA00D716E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECCB33B71BF467DA00D716E4 /* GHBTreeViewDemo */;
+			targetProxy = ECCB33DD1BF467DA00D716E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECCB33C41BF467DA00D716E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECCB33C51BF467DA00D716E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECCB33C91BF467DA00D716E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECCB33CA1BF467DA00D716E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECCB33E31BF467DA00D716E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECCB33E41BF467DA00D716E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECCB33E61BF467DA00D716E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GHBTreeViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.GHB.GHBTreeViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECCB33E71BF467DA00D716E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GHBTreeViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.GHB.GHBTreeViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECCB33E91BF467DA00D716E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GHBTreeViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.GHB.GHBTreeViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHBTreeViewDemo.app/GHBTreeViewDemo";
+			};
+			name = Debug;
+		};
+		ECCB33EA1BF467DA00D716E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GHBTreeViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.GHB.GHBTreeViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHBTreeViewDemo.app/GHBTreeViewDemo";
+			};
+			name = Release;
+		};
+		ECCB33EC1BF467DA00D716E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GHBTreeViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.GHB.GHBTreeViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GHBTreeViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ECCB33ED1BF467DA00D716E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GHBTreeViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.GHB.GHBTreeViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GHBTreeViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECCB33B31BF467DA00D716E4 /* Build configuration list for PBXProject "GHBTreeViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCB33E31BF467DA00D716E4 /* Debug */,
+				ECCB33E41BF467DA00D716E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCB33E51BF467DA00D716E4 /* Build configuration list for PBXNativeTarget "GHBTreeViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCB33E61BF467DA00D716E4 /* Debug */,
+				ECCB33E71BF467DA00D716E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECCB33E81BF467DA00D716E4 /* Build configuration list for PBXNativeTarget "GHBTreeViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCB33E91BF467DA00D716E4 /* Debug */,
+				ECCB33EA1BF467DA00D716E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECCB33EB1BF467DA00D716E4 /* Build configuration list for PBXNativeTarget "GHBTreeViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCB33EC1BF467DA00D716E4 /* Debug */,
+				ECCB33ED1BF467DA00D716E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECCB33B01BF467DA00D716E4 /* Project object */;
+}
